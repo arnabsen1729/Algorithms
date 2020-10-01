@@ -121,7 +121,7 @@ Kahn’s algorithm I implemented, instead produces a linear ordering such that [
 ### Segment Tree Implementation with Range Query and Point Update
 
 Segment tree is a data structure that allows us to perform range queries and point updates in `O(logN)` time. Range Updates is also possible in Segment Trees, but i have implemented only Range Queries and Point Updates.
-[ALGORITHM](./segtree.md)
+[ALGORITHM](segtree.md)
 
 ### Fenwick Tree Implementation with Range Query and Point Update
 
