@@ -121,4 +121,9 @@ Kahn’s algorithm I implemented, instead produces a linear ordering such that [
 ### Segment Tree Implementation with Range Query and Point Update
 
 Segment tree is a data structure that allows us to perform range queries and point updates in `O(logN)` time. Range Updates is also possible in Segment Trees, but i have implemented only Range Queries and Point Updates.
-[ALGORITHM](segtree.md)
+[ALGORITHM](./segtree.md)
+
+### Fenwick Tree Implementation with Range Query and Point Update
+
+Similar to segment tree, fenwick tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers in logarithmic time. The main idea behind the this DS is segmenting the array as powers of two, hence is also known as Binary Indexed Tree. Although Fenwick tree is not as flexible as Segment tree but has easier implementation.
+[ALGORITHM](./Fenwich_Tree.cpp)
